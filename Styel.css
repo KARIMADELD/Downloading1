@@ -10,7 +10,7 @@
 
 
 header {
-    background-color: #f0f0f0;
+    background-color: hsl(0, 0%, 100%);
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -20,7 +20,7 @@ header {
     padding: 10px 200px ;
 }
 
- .Logo{
+.Logo{
      text-decoration: none;
      color: #3a6cf4;
      text-transform: uppercase;
@@ -58,7 +58,7 @@ ul li{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/pexels-photo-275033.jpeg) no-repeat ;
+    background: url("images/pexels-photo-275033.jpeg") no-repeat ;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -117,93 +117,60 @@ section{
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    font-size: 40px;
 }
 
-.card{
+.content1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.img{
     background-color: #f0f0f0;
-    width: 21.25em;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    width: 742px;
     border-radius: 15px 15px 0 0;
     padding: 25px;
     margin: 15px ;
-    height: auto;
+    height: 580px;
 }
 
-.card:hover {
+.img:hover {
  transform: scale(1.1);
-}
-
-.card-image{
-    margin-bottom: 15px;
-    height: 270px;
-    width: 270px;
-    background-size: cover;
-}
-
-.DarkSouls{
-    background: url("images/Dark_Souls_Cover_Art.jpg");
 }
 
 .card-image1{
     margin-bottom: 15px;
-    height: 225px;
-    width: 225px;
-    background-size: cover;
-}
-
-.HouseoftheDead{
-    background: url("images/download.jpg");
-}
-
-.card-image2{
-    margin-bottom: 15px;
-    height: 245px;
-    width: 208px;
-    background-size: cover;
-}
-
-.ARMYMEN{
-    background: url("images/images.jpg");
-}
-
-.card-image3{
-    margin-bottom: 15px;
-    height: 467px;
-    width: 350px;
-    background-size: cover;
-}
-
-.Bayonetta{
-    background: url("images/jhbbnre1d7x6cihhhkqs_350x200_1x-0.jpg");
-}
-
-.card-image4{
-    margin-bottom: 15px;
-    height: 353px;
-    width: 255px;
-    background-size: cover;
-}
-
-.BloodRayne2{
-    background: url("images/1562323228_poster-bloodrayne-2.jpeg");
-}
-
-.card-image5{
-    margin-bottom: 15px;
-    height: 420px;
-    width: 240px;
+    height: 419px;
+    width: 236px;
     background-size: cover;
 }
 
 .Bolt{
-    background: url("images/0bfc3c4730d46c6cc46512c03586c3b2.jpg");
+    background: url("images/0bfc3c4730d46c6cc46512c03586c3b2.jpg")
 }
 
-.card a{
-    background-color: black;
-    color: white;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
+.content2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+.content3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 30px;
+    box-shadow: rgba(1 1 1 / 15%);
+    border-radius: 15px 15px 0 0;
+    padding: 25px;
+    margin: 15px ;
+    width: auto;
+    height: auto;
+    color: black;
 }
